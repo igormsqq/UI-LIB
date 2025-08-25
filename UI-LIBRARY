@@ -5166,14 +5166,14 @@ function Library:Window(p)
 
 			addToTheme('Text & Icon', Title_1)
 
-			CloseUIShadow.Size = UDim2.new(0, Title_1.TextBounds.X + 60,0, 60)
+			CloseUIShadow.Size = UDim2.new(0, Title_1.TextBounds.X + 40,0, 60)
 
 			local Click = click(CloseUIShadow)
 			lak(Click, CloseUIShadow)
 			Click.MouseButton1Click:Connect(function()
 				tw({v = Title_1, t = 0.15, s = Enum.EasingStyle.Back, d = "Out", g = {TextSize = Title_1.TextSize - 2}}):Play()
 				delay(.06, function()
-					tw({v = Title_1, t = 0.15, s = Enum.EasingStyle.Back, d = "Out", g = {TextSize = 12}}):Play()
+					tw({v = Title_1, t = 0.15, s = Enum.EasingStyle.Back, d = "Out", g = {TextSize = 14}}):Play()
 				end)
 				pcall(closeui)
 			end)
