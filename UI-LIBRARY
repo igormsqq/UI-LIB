@@ -500,7 +500,119 @@ Midnight = {
 			},
 			['Code'] = {
 				['Background'] = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 25, 0)), ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 25, 0))},
-				['Background Code'] = Colo
+				['Background Code'] = Color3.fromRGB(0, 35, 0),
+				['Background Code Value'] = Color3.fromRGB(0, 28, 0),
+				['ScrollingFrame Code'] = Color3.fromRGB(0, 150, 0)
+			},
+			['Button'] = {
+				['Background'] = Color3.fromRGB(0, 25, 0),
+				['Click'] = Color3.fromRGB(0, 255, 0)
+			},
+			['Textbox'] = {
+				['Background'] = Color3.fromRGB(0, 25, 0),
+				['Value Background'] = Color3.fromRGB(0, 15, 0),
+				['Value Stroke'] = Color3.fromRGB(0, 255, 0),
+			},
+			['Keybind'] = {
+				['Background'] = Color3.fromRGB(0, 25, 0),
+				['Value Background'] = Color3.fromRGB(0, 15, 0),
+				['Value Stroke'] = Color3.fromRGB(0, 255, 0),
+				['True'] = {
+					['Toggle Background'] = Color3.fromRGB(0, 40, 0),
+					['Toggle Value'] = Color3.fromRGB(0, 200, 0),
+				},
+				['False'] = {
+					['Toggle Background'] = Color3.fromRGB(0, 30, 0),
+					['Toggle Value'] = Color3.fromRGB(0, 40, 0),
+				}
+			},
+			['Color Picker'] = {
+				['Background'] = Color3.fromRGB(0, 25, 0),
+				['Color Select'] = {
+					['Background'] = Color3.fromRGB(0, 15, 0),
+					['UIStroke'] = Color3.fromRGB(0, 255, 0),
+				}
+			}
+		}
+	},
+	BloodS = {
+		['Shadow'] = Color3.fromRGB(15, 0, 0),
+		['Background'] = Color3.fromRGB(25, 0, 0),
+		['Page'] = Color3.fromRGB(20, 0, 0),
+		['Main'] = Color3.fromRGB(200, 0, 0),
+		['Text & Icon'] = Color3.fromRGB(255, 50, 50),
+		['Function'] = {
+			['Toggle'] = {
+				['Background'] = Color3.fromRGB(30, 0, 0),
+				['True'] = {
+					['Toggle Background'] = Color3.fromRGB(60, 0, 0),
+					['Toggle Value'] = Color3.fromRGB(200, 0, 0),
+				},
+				['False'] = {
+					['Toggle Background'] = Color3.fromRGB(40, 0, 0),
+					['Toggle Value'] = Color3.fromRGB(50, 0, 0),
+				}
+			},
+			['Label'] = {
+				['Background'] = Color3.fromRGB(30, 0, 0),
+			},
+			['Dropdown'] = {
+				['Background'] = Color3.fromRGB(30, 0, 0),
+				['Value Background'] = Color3.fromRGB(20, 0, 0),
+				['Value Stroke'] = Color3.fromRGB(255, 50, 50),
+				['Dropdown Select'] = {
+					['Background'] = Color3.fromRGB(20, 0, 0),
+					['Search'] = Color3.fromRGB(40, 0, 0),
+					['Item Background'] = Color3.fromRGB(50, 0, 0),
+				}
+			},
+			['Slider'] = {
+				['Background'] = Color3.fromRGB(30, 0, 0),
+				['Value Background'] = Color3.fromRGB(20, 0, 0),
+				['Value Stroke'] = Color3.fromRGB(255, 50, 50),
+				['Slider Bar'] = Color3.fromRGB(60, 0, 0),
+				['Slider Bar Value'] = Color3.fromRGB(200, 0, 0),
+				['Circle Value'] = Color3.fromRGB(255, 50, 50)
+			},
+			['Code'] = {
+				['Background'] = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(30, 0, 0)), ColorSequenceKeypoint.new(1, Color3.fromRGB(30, 0, 0))},
+				['Background Code'] = Color3.fromRGB(40, 10, 10),
+				['Background Code Value'] = Color3.fromRGB(30, 5, 5),
+				['ScrollingFrame Code'] = Color3.fromRGB(255, 100, 100)
+			},
+			['Button'] = {
+				['Background'] = Color3.fromRGB(30, 0, 0),
+				['Click'] = Color3.fromRGB(255, 50, 50)
+			},
+			['Textbox'] = {
+				['Background'] = Color3.fromRGB(30, 0, 0),
+				['Value Background'] = Color3.fromRGB(20, 0, 0),
+				['Value Stroke'] = Color3.fromRGB(255, 50, 50),
+			},
+			['Keybind'] = {
+				['Background'] = Color3.fromRGB(30, 0, 0),
+				['Value Background'] = Color3.fromRGB(20, 0, 0),
+				['Value Stroke'] = Color3.fromRGB(255, 50, 50),
+				['True'] = {
+					['Toggle Background'] = Color3.fromRGB(60, 0, 0),
+					['Toggle Value'] = Color3.fromRGB(200, 0, 0),
+				},
+				['False'] = {
+					['Toggle Background'] = Color3.fromRGB(40, 0, 0),
+					['Toggle Value'] = Color3.fromRGB(50, 0, 0),
+				}
+			},
+			['Color Picker'] = {
+				['Background'] = Color3.fromRGB(30, 0, 0),
+				['Color Select'] = {
+					['Background'] = Color3.fromRGB(20, 0, 0),
+					['UIStroke'] = Color3.fromRGB(255, 50, 50),
+				}
+			}
+		}
+	},
+}
+
 
 local ScreenGui = Instance.new("ScreenGui")
 ScreenGui.Name = "Dummy Kawaii"
