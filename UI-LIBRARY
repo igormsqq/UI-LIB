@@ -5166,7 +5166,7 @@ function Library:Window(p)
 
 			addToTheme('Text & Icon', Title_1)
 
-			CloseUIShadow.Size = UDim2.new(0, Title_1.TextBounds.X + 40,0, 50)
+			CloseUIShadow.Size = UDim2.new(0, Title_1.TextBounds.X + 40,0, 55)
 
 			local Click = click(CloseUIShadow)
 			lak(Click, CloseUIShadow)
